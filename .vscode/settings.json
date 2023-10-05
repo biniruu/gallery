@@ -1,7 +1,4 @@
 {
-  "[javascript]": {
-    "editor.formatOnSave": false // 저장할 때마다 포맷에 맞춰 코드 변경
-  },
   "autoimport.useSemiColon": false, // auto import 기능으로 import한 모듈에 세미콜론 삽입
   "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
   "aws.telemetry": false,
@@ -102,10 +99,7 @@
   "npm.keybindingsChangedWarningShown": true,
   "git.mergeEditor": true, // conflict 시 diff 화면 스타일을 3-way merge로 표시
   "problems.autoReveal": false,
-  "projectManager.git.baseFolders": [
-    "/Users/biniruu/Projects",
-    "/Users/biniruu/Learning"
-  ],
+  "projectManager.git.baseFolders": ["/Users/biniruu/Projects", "/Users/biniruu/Learning"],
   "puglint.enable": true,
   "python.formatting.provider": "black",
   "python.jediEnabled": false,
