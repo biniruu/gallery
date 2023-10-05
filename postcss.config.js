@@ -20,15 +20,15 @@
 
 module.exports = {
   plugins: {
-"postcss-preset-env": {
+    'postcss-preset-env': {
       autoprefixer: {
         // grid: 'autoplace', // ie 10-11 대응 grid layout 속성 prefix
       },
       features: {
-        "nesting-rules": true,
+        'nesting-rules': true,
       },
     },
     tailwindcss: {}, // tailwindcss 사용 시 필요
-    ...(process.env.NODE_ENV === "production" ? { cssnano: {} } : {}), // production 환경에서 css minify 구현
+    ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {}), // production 환경에서 css minify 구현
   },
-};
+}
